@@ -1,0 +1,33 @@
+{
+  "name": "agroland-portal-backend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/nodejs": "^5.0.2",
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^1.41.3",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "google-auth-library": "^10.5.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.2",
+    "multer": "^2.0.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "uuid": "^11.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "db:apply": "node scripts/node/apply-migrations.js",
+    "db:check": "node scripts/node/check-database.js",
+    "db:fix:all": "node scripts/node/fix_issues.js",
+    "db:fix:direct": "node scripts/node/direct_fix.js",
+    "db:fix:profiles": "node scripts/node/fix-user-profiles.js",
+    "db:create:settings": "node scripts/node/create_system_settings.js",
+    "db:fix:users": "node scripts/node/fix_user_management.js"
+  }
+}

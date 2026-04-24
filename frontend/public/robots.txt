@@ -1,0 +1,14 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /seller-dashboard/
+Disallow: /buyer-dashboard/
+Disallow: /admin-dashboard/
+Disallow: /authentication-login-register
+
+# Sitemap
+Sitemap: https://agrolandgujarat.in/sitemap.xml
+Sitemap: https://www.agrolandgujarat.in/sitemap.xml
+
+# Crawl Delay
+Crawl-delay: 1

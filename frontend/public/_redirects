@@ -1,0 +1,6 @@
+# Redirect Vercel subdomain to custom domain
+https://agroland-gujrat.vercel.app/* https://agrolandgujarat.in/:splat 301!
+https://www.agroland-gujrat.vercel.app/* https://agrolandgujarat.in/:splat 301!
+
+# Redirect www to non-www
+https://www.agrolandgujarat.in/* https://agrolandgujarat.in/:splat 301!

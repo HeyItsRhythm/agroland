@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  <rect x="200" y="150" width="400" height="300" fill="#e0e0e0" rx="8" ry="8"/>
+  <path d="M350 250 L450 250 L450 350 L350 350 Z" fill="#d0d0d0"/>
+  <circle cx="400" cy="200" r="30" fill="#d0d0d0"/>
+  <path d="M300 350 L500 350 L400 450 Z" fill="#d0d0d0"/>
+  <text x="400" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#808080">Property Image</text>
+</svg>

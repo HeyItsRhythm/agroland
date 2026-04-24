@@ -1,0 +1,37 @@
+{
+    "version": 2,
+    "redirects": [
+        {
+            "source": "/:path*",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "agroland-gujrat.vercel.app"
+                }
+            ],
+            "destination": "https://agrolandgujarat.in/:path*",
+            "permanent": true
+        },
+        {
+            "source": "/:path*",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "www.agroland-gujrat.vercel.app"
+                }
+            ],
+            "destination": "https://agrolandgujarat.in/:path*",
+            "permanent": true
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "/api/index.js"
+        },
+        {
+            "source": "/((?!api/).*)",
+            "destination": "/index.html"
+        }
+    ]
+}
